@@ -1,0 +1,7 @@
+_schema-version: "3.1"
+ID: sentinel.test
+version: 1.0.0
+modules:
+  - name: sentinel-test-srv
+    type: nodejs
+    path: srv
