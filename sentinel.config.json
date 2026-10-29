@@ -1,6 +1,12 @@
 {
   "fix": {
-    "groups": ["ui5", "node", "npm-overrides", "cap"],
+    "groups": [
+      "ui5",
+      "node",
+      "npm-overrides",
+      "cap",
+      "npm-audit"
+    ],
     "autoMerge": "patch"
   }
 }
