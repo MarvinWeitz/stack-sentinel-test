@@ -1,0 +1,7 @@
+{
+  "name": "sentinel-test-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
