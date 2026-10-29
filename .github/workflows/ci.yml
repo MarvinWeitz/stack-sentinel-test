@@ -1,0 +1,12 @@
+# Only here so stack-sentinel finds the Node.js version a pipeline sets up; run by hand.
+name: ci
+on: workflow_dispatch
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 20
+      - run: node --version
