@@ -4,6 +4,6 @@ metadata:
 type: application
 framework:
   name: SAPUI5
-  version: "1.120.51"
+  version: "1.148.13"
   libraries:
     - name: sap.m
