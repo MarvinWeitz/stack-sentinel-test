@@ -2,6 +2,6 @@
   "name": "sentinel-test-cap",
   "private": true,
   "dependencies": {
-    "@sap/cds": "^8"
+    "@sap/cds": "^10"
   }
 }
