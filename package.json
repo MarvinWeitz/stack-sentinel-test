@@ -2,6 +2,6 @@
   "name": "sentinel-test",
   "private": true,
   "engines": {
-    "node": "^20"
+    "node": "^26"
   }
 }

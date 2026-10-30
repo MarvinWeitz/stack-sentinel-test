@@ -1,4 +1,7 @@
 {
   "name": "sentinel-test-srv",
-  "private": true
+  "private": true,
+  "engines": {
+    "node": "^24"
+  }
 }
