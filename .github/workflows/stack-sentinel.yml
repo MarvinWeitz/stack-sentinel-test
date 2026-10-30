@@ -24,6 +24,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      issues: write
     env:
       # The npm package to run. "@latest" follows the latest release, so the tool stays
       # current without anyone editing this file. To stay on one release instead, set the

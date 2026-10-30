@@ -10,8 +10,24 @@
     "autoMerge": "patch"
   },
   "ignore": [
-    { "advisory": "GHSA-xvch-5gv4-984h", "until": "2026-12-31", "reason": "Test: minimist is only used by a build script" },
-    { "check": "npm-audit", "package": "left-pad", "reason": "Test: matches nothing, so it should be reported" },
-    { "check": "ui5-version", "file": "^ui5-mock\\.yaml$", "until": "2026-10-01", "reason": "Test: expired, so the finding comes back" }
-  ]
+    {
+      "advisory": "GHSA-xvch-5gv4-984h",
+      "until": "2026-12-31",
+      "reason": "Test: minimist is only used by a build script"
+    },
+    {
+      "check": "npm-audit",
+      "package": "left-pad",
+      "reason": "Test: matches nothing, so it should be reported"
+    },
+    {
+      "check": "ui5-version",
+      "file": "^ui5-mock\\.yaml$",
+      "until": "2026-10-01",
+      "reason": "Test: expired, so the finding comes back"
+    }
+  ],
+  "dashboard": {
+    "enabled": true
+  }
 }
