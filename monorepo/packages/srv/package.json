@@ -2,6 +2,6 @@
   "name": "srv",
   "version": "1.0.0",
   "dependencies": {
-    "@sap/cds": "^8"
+    "@sap/cds": "^10"
   }
 }
